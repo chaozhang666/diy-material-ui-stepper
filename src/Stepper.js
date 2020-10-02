@@ -83,7 +83,7 @@ export default function VerticalLinearStepper() {
       <Container maxWidth='md'>
         <Box>
           <Typography variant='h4' style={{textAlign: "center", margin: '20px'}} >
-            PhoneBox Internet Activation
+            The Activation Stepper
           </Typography>
           <Stepper activeStep={activeStep} orientation="vertical">
             {steps.map((label, index) => (
